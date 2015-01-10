@@ -18,7 +18,7 @@ class Global_data():
               'Accept-Encoding':'gzip, deflate',
               'Connection':'keep-alive'
               }
-        with open('../ddns_passwd.txt','r') as fdata:
+        with open('ddns_passwd.txt','r') as fdata:
             self.postdict_login={'m_szUserName':fdata.readline(),
                     'm_szUserPwd':fdata.readline(),
                     'm_btnLogin':'登录(Alt+L)'}
