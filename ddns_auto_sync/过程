@@ -1,0 +1,18 @@
+1、登录
+访问http://88ip.cn/login.aspx
+post数据
+'Username':'tinysun1234'
+'Password':'198711'
+'m_btnSubmit.x':'16'
+'m_btnSubmit.y':'14'
+header数据
+'User-Agent':'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:34.0) Gecko/20100101 Firefox/34.0'
+'Referer':'http://88ip.cn/'
+
+需要接受cookie，无须认证
+
+response编码：gb2312
+
+本网站为asp，在登录前必须获得本次会话的ASP验证参数。任意访问一个网页，从返回的页面源码中提取__VIEWSTATE和__VIEWSTATEGENERATOR的值，
+将这两个值加入post提交即可完成登录
+
